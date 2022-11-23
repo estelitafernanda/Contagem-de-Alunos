@@ -4,21 +4,21 @@ html, body {
 }
 #circulo3{
 background-color: #040F3C;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 #cadastro{
     color: #F4200A;
     font-family: "Georgia", serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 #nome{
     color: #F4200A;
     font-family: "Georgia", serif;
     font-size: 18px;
-    margin-right: 25px;
+    margin-right: 10px;
     font-weight: bold;
 }
 #caixa{
@@ -28,28 +28,14 @@ border-radius: 20px;
     color: #F4200A;
     font-family: "Georgia", serif;
     font-size: 18px;
-    margin-right: 25px;
+    text-align: center;
     font-weight: bold;
 }
-#email{
+#turma{
 color: #F4200A;
     font-family: "Georgia", serif;
     font-size: 18px;
-    margin-right: 5px;
-    font-weight: bold;
-}
-#crie{
-color: #F4200A;
-    font-family: "Georgia", serif;
-    font-size: 18px;
-    margin-right: 37px;
-    font-weight: bold;
-}
-#repita{
-color: #F4200A;
-    font-family: "Georgia", serif;
-    font-size: 18px;
-    margin-right: 40px;
+    text-align: center;
     font-weight: bold;
 }
 #botao {

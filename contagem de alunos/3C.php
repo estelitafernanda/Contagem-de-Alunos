@@ -1,7 +1,7 @@
 <?php
 Include_once("conexao.php") ;
 
-$selecao = "SELECT * FROM aluno";
+$selecao = "SELECT * FROM aluno WHERE id_turma = '3C'";
 $result_selecao = mysqli_query($conn, $selecao);
 
 ?>

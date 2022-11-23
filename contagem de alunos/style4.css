@@ -41,3 +41,16 @@ a {
     font-size: 20px;
     margin-right: 20px;
 }
+#botao {
+background-color: #040F3C;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
