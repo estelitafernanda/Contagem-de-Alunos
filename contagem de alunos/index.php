@@ -1,7 +1,9 @@
 <?php
 // Inicialize a sessão
 session_start();
-include("conexao.php");
+ 
+// Incluir arquivo de configuração
+require_once "config.php";
  
 // Defina variáveis e inicialize com valores vazios
 $usuario = $password = "";

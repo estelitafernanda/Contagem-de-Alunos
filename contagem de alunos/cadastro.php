@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("conexao.php");
+require_once "config.php";
  
 // Defina variáveis e inicialize com valores vazios
 $usuario = $password = $confirm_password = "";
@@ -19,10 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "SELECT usuario FROM cadastro WHERE usuario = :usuario";
         
         if($stmt = $pdo->prepare($sql)){
-            // Vincule as variáveis à instrução preparada como parâmetros
             $stmt->bindParam(":usuario", $param_usuario, PDO::PARAM_STR);
-            
-            // Definir parâmetros
             $param_usuario = trim($_POST["usuario"]);
             
             // Tente executar a declaração preparada
